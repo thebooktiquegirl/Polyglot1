@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/logo.jpeg".favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#navbar {margin:-0.66%;
+  overflow: hidden;
+ 
+  padding-top:30px;
+  font-weight: 1000;
+font-family: 'Courier New', monospace;
+}
+
+
+#navbar {height:85px;
+background-image:url("file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/logo.jpeg");
+	background-repeat: no-repeat;
+   background-size: 120px 100px;
+    
+	background-position:2% 80%;
+  overflow: hidden;
+  background-color: #ffb7b2;
+}
+
+#navbar a {
+margin:none;
+  float: right;
+  color: black;
+  text-align:right;
+  padding: 25px ;
+  text-decoration: none;
+  font-size: 28px;
+  
+}
+
+#navbar a:hover {
+  background-color:#fb928e ;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #2874A6;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#langname{
+background-image:url("https://us.123rf.com/450wm/luplupme/luplupme2104/luplupme210400178/166906348-swedish-language-concept-design-vector-illustration-sweden-graphic-symbol-banner-language-education-.jpg?ver=6");
+background-repeat:no-repeat;
+height:100px;
+background-size: 120px 90px ;
+  
+	background-position:0% 90%;
+}
+
+.button {
+  background-color:#DE6767;
+  border: none;
+  box-shadow: 2px 2px pink;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float:right;
+  margin-top:38px;
+}
+
+.button1 {border-radius: 8px;}
+
+
+button:hover{
+	background-color:#ffb7b2;
+	
+	color:white;
+}
+#div1{
+    
+	font-size:30px;
+	margin:20px;
+	
+	
+	
+}
+h2{font-size:30px;
+color:#DE6767;}
+
+
+
+
+
+#contributors{
+	height:200px;
+	width:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	
+	flex-direction:row;
+}
+#b{background:#FFFFFF ;
+margin-bottom:20px;
+width:180px;
+height:200px;
+font-family: 'Courier New', monospace;
+}
+
+a{text-decoration:none;}
+
+h4{color:#515A5A;}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div id="navbar" style="padding-bottom:10px;padding-top:0.02px;">
+  
+ 
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/Joboffers.html">Job Offers</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/cc.html">Upcoming Events</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/doubts.html#about">Doubts</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/stats3.html">Statistics</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/new1.html">Home</a> 
+  
+</div>
+
+
+<div id="lang" style="margin:10%;margin-right:22%;margin-left:22%;margin-top:10%;font-family: 'Courier New', monospace;">
+
+
+<div id "prev">
+
+<a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/language.html" style="color:grey;font-size:20px;">&#8249; ALL COURSES</a>
+
+  
+<div id= "langname"style="padding-left:130px;font-family: 'Courier New', monospace;color:#DE6767;">
+
+<a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/cc.html"><button class="button button1">START COURSE</button></a>
+
+<p style="padding-top:50px;font-size:40px;"><strong>Learn Swedish</strong></p>
+
+
+</div>
+<hr>
+  <div class="container">
+        <h2 class="con1"><i class="contain1"></i>About the course</h2>
+        <div class="container1">
+          
+         
+          <h4><p>Swedish is spoken by about 10 million people, predominantly in Sweden and parts of Finland. Visit the home of the Nobel prize, get ready to attend a traditional crayfish party in the summer and meet some of the most peaceful people in the world - Sweden celebrates 200 years of peace this year! Swedish speakers can also understand some Danish and Norwegian, since all three languages are derived from Old Norse, the language of the vikings.</p>
+          </h4>
+		  
+		  <h2 class="con1"><i class="contain1"></i>Did you know?</h2>
+		 <h4><p> Learners who complete through Polyglot achieve similar reading and listening proficiency as university students! And after unit tests,
+		  Polyglot learners look similar to university students after five semesters</p>
+		  </h4>
+		  
+		  
+		  
+		  
+		  <hr>
+        </div>
+
+    </div>
+	
+
+	<p><h2 style="padding-bottom:10px;">Course contibutors</h2></p>
+      	
+		<div id="contributors">
+	<div id="div1"><button id ="b" style="border-radius:15px; padding:20px;border-color:#839192;box-shadow: 5px 5px #DE6767;">
+		
+		<img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/Screenshots/Screenshot%20(75).png" width="100%" height="80%" alt="lou">
+	<strong><div style="height:25px;color:#515A5A; width:100%; font-size:20px;border:none;padding-top:10px;">USER 1</div></strong></button>
+	</div>
+	
+	
+	<div id="div1"><button id ="b"style="border-radius:15px;box-shadow: 5px 5px #DE6767; padding:20px;border-color:#839192;">
+		
+		<img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/Screenshots/Screenshot%20(77).png" width="100%" height="80%" alt="lou">
+	<strong><div style="height:25px;color:#515A5A; width:100%; font-size:20px;border:none;padding-top:10px;">USER 2</div></strong></button>
+	</div>
+	
+	
+	<div id="div1"><button id ="b"style="border-radius:15px;box-shadow: 5px 5px #DE6767; padding:20px;border-color:#839192;">
+		
+		<img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/Screenshots/Screenshot%20(74).png" width="100%" height="80%" alt="lou">
+	<strong><div style="height:25px; color:#515A5A;width:100%; font-size:20px;border:none;padding-top:10px;">USER 3</div></strong></button>
+	</div>
+	
+	
+	<div id="div1"><button id ="b"style="border-radius:15px; box-shadow: 5px 5px #DE6767;padding:20px;border-color:#839192;">
+		
+		<img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/Screenshots/Screenshot%20(73).png" width="100%" height="80%" alt="lou">
+	<strong><div style="height:25px;color:#515A5A; width:100%; font-size:20px;border:none;padding-top:10px;">USER 4</div></strong></button>
+	</div>
+	
+	
+	
+	<div id="div1"><button id ="b"style="border-radius:15px;box-shadow: 5px 5px #DE6767; padding:20px;border-color:#839192;">
+		
+		<img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/Screenshots/Screenshot%20(76).png" width="100%" height="80%" alt="lou">
+	<strong><div style="height:25px;color:#515A5A; width:100%; font-size:20px;border:none;padding-top:10px;">USER 5</div></strong></button>
+	</div>
+	
+	
+
+	
+	
+	
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
