@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"> <title>Chat Window</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/logo.jpeg".favicon.ico">
+ <link rel="stylesheet" href="doubts.css">
+
+</head>
+
+
+
+
+<body>
+<div id="navbar" style="padding-bottom:0.1px;padding-top:10px;">
+  
+ <B>
+  
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/Joboffers.html">Job Offers</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/cc.html">Upcoming Events</a>
+  <a CLASS="active">Doubts</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/stats3.html">Statistics</a>
+  <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/new1.html">Home</a>
+  
+  
+  </B>
+  
+</div>
+
+		<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+
+
+ <button class="chat-btn">
+ <B><i class="material-icons"> CHAT </i></B>
+ </button>
+ <div class="chat-popup">
+ <div class="badge">1</div>
+ <div class="chat-area">
+ <div class="income-msg">
+ <img src="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Pictures/6eaecf25df1b15e4595909ebff6e25a4%20(2).jpg" class="avatar" alt="">
+
+ <span class="msg"> Hey, How may I help you?</span>
+ </div>
+
+
+ </div>
+ 
+ 
+            
+ 
+ <div class="input-area">
+ <input type="text">
+ <button id="emoji-btn"> &#127773;</button>
+ <button class="submit"> <i class="material-icons">
+send</i></button>
+ </div>
+ </div>
+
+ <script
+src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"
+></script>
+ <script src="main.js"></script>
+</body>
