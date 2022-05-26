@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+<title>
+</title>
+<link rel="stylesheet" href="homefinal.css">
+<link rel="icon" type="image/x-icon" href="C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/logo.jpeg".favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Full-width input fields */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.signupbtn  
+{
+  background-color: #FF9D93;
+  color: white;
+  padding: 14px 20px;
+
+  margin-bottom:10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;}
+
+.cancelbtn  
+{
+  background-color: #FF9D93;
+  color: white;
+  padding: 14px 20px;
+
+  margin-bottom:10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;}
+
+.loginbtn  
+{
+  background-color: #FF9D93;
+  color: white;
+  padding: 14px 20px;
+
+  margin-bottom:10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 100%;
+  padding: 10px 18px;
+ 
+  
+}
+
+
+.signupbtn {
+  width: 100%;
+  padding: 10px 18px;
+ 
+  
+}
+
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 20px -5px 10px -10px;
+  position: relative;
+  
+}
+
+img.avatar {
+  width: 40%;
+ 
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 40px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+.sticky {
+  position: fixed;
+  top: -2em;
+  width: 100%;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+  <div id="wrapper">
+  
+    <div id="header"><b>
+
+      <div style="font-size:8em;text-align:right;margin-right:1em;font-family: 'Courier New', monospace;padding-top:0.5em;">Polyglot</div></b>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+      <div id="navbar">
+        <ul style="font-size:2em;">
+         <a> <button class="button">Home</button><a>
+          <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/stats3.html"><button class="button button2">Statistics</button></a>
+         <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/doubts.html#about"> <button class="button button3">Ask Doubts</button></a>
+         <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/cc.html"> <button class="button button4">Upcoming Events</button></a>
+		 <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/Joboffers.html"><button class="button button5">Job Offers</button></a>
+         <a > <button class="button button6"  onclick="document.getElementById('id01').style.display='block'" >Login</button>
+		 
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/language.html" method="post">
+    <div class="imgcontainer">
+      
+      <img src="https://www.seekapor.com/wp-content/uploads/2020/01/communication-multiple-languages_52683-30051.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container"style="margin-bottom">
+      <label for="uname"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+     <a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/language.html"> <button type="submit" class="loginbtn">Login</button></a>
+     
+    </div>
+
+    <div class="container" style=" background-color: #fefefe;margin-top:-30px;">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+        </ul>
+      </div>
+    
+	
+    
+	
+	
+	
+      <div id="feature">
+	 <b>
+        <p class="feature info" style="color:#616A6B;font-size:1.2em;margin-top:150px;font-family: 'Courier New', monospace;">Why learn only one language when you can
+            have a hold over few of them?</p>
+      <b>  <p class="feature info" style="font-size:3em;color:#FFBA84;font-family: 'Courier New', monospace;margin-top:-0.25em;margin-bottom:-0.25em;">LEARN,SPEAK,ACHIEVE<p/></b>
+        <p class="feature info" style="color:#616A6B;font-size:1.2em;font-family: 'Courier New', monospace;">Learning a new language can be very enriching, but it may not be always
+                possible to learn them. That’s where polyglot comes in, here we help
+                you to learn from the natives itself.
+                We start from the very basics, by picking up the basic vocabulary,
+                progress to formulating simple sentences, and then wonder why on
+                earth the grammar can’t just be simple for once.</p>
+				<p class="feature info2"><button class="b"><a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/language.html">Start Learning</a></button></p>
+        </b> 
+	  </div>
+      
+	  
+	  
+	  <div id="content"><b>
+	
+	  
+      <div class="article column1">
+	     <p style="font-size:35px;font-family: 'Courier New', monospace;"><b>Interact with the world</b></p>
+        <p style="font-size:22px;color:#616A6B;margin-left:1em;margin-right:1em;font-family: 'Courier New', monospace;">Many people assume that English is the most commonly used language
+                        on Earth, but that isn’t the case. It’s true that many countries around the
+                          globe cater to English speakers, especially in business and travel hubs.</p>
+        
+      </div>
+      <div class="article column2">
+        
+      </div>
+      <div class="article column3">
+        <p style="font-size:35px;font-family: 'Courier New', monospace;"><b>Learn at your own pace</b></p>
+        <p style="font-size:20px;color:#616A6B;margin-left:1em;margin-right:1em;font-family: 'Courier New', monospace;">Study at your own pace, starting with the most important vocabulary and
+grammar. Get started memorizing vocabulary with just 10 minutes a day.
+Immerse yourself in the addictive stories to keep you engaged while
+improving your listening skills, vocab, and grammar.</p>
+      </div>
+    </div>
+	
+	
+	<div id="content2">
+      
+      <div class="article2 column12"><b>
+	    
+		<P style="font-size:3em;font-family: 'Courier New', monospace;">NEW LANGUAGE</P>
+		
+		<P style="font-size:3em;font-family: 'Courier New', monospace;">NEW CONNECTIONS</P>
+		<P style="font-size:3em;font-family: 'Courier New', monospace;">NEW CAREER</P>
+		<P style="font-size:3em;font-family: 'Courier New', monospace;">NEW LIFE</P>
+        </div>
+      <div class="article2 column22">
+        
+      </b></div>
+      
+    </div>
+	
+	
+	<div id="content3">
+      
+      <div class="article3 column13">
+        <p></p>
+      </div>
+      <div class="article3 column23">
+        <p style="font-size:38px;font-family: 'Courier New', monospace; "><b>Make your carrier in this field</b></p>
+        <p style="font-size:26px;margin-left:1em;margin-right:1em;color:#616A6B;font-family: 'Courier New', monospace;">Whether you’re an entrepreneur looking to become the next global
+household name or simply someone who travels a lot for work, being
+multilingual could create new possibilities for you</p>
+      </div>
+      </b>
+	  
+	  
+    </div>
+	
+	
+	
+	<div id="content4">
+      
+      <div class="article4 column14">
+        <p style="font-size:56px;font-family: 'Courier New', monospace; padding-top:24px;color:#117864;"><b>Affiliated to Certified
+Universities</b></p>
+      </div>
+      <div class="article4 column24">
+        <p style="font-size:28px;font-family: 'Courier New', monospace; padding:20px;padding-left:50px;padding-right:50px;"><b>We offer
+universities a flexible and interactive language e-learning platform that takes
+valuable teaching beyond the classroom. Our AI-powered language learning is
+personalised to each person's level, which drives up their language proficiency
+faster, and in turn their career prospects.
+<a href="file:///C:/Users/NAVYA%20GUPTA/OneDrive/Desktop/POLYGLOT/CERTIFICATE2.jpeg" style="color:#1B2631;">CHECK THE CERTIFICATE HERE!</a></b></p>
+      </div>
+    </div>
+	
+	
+	<div id="content5">
+      
+      <div class="article5 column15">
+        <p style="font-size:60px;font-family: 'Courier New', monospace; color:#117864;">
+		
+		<div class="rate" style="margin-left:520px;"> <h1>How was your experience?</h1>
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 star</label>
+    </div>
+		
+		
+		
+		
+		
+		
+</p>
+      </div>
+      
+    </div>
+	
+	
+    <div id="footer">
+	      <div class="social-links">
+                      <ol>
+					        <li class="quick-items"><b><a href="#">About Us</a></b></li>
+                           <p style="text-align:left;margin-right:44em;margin-top:2px;font-size:18px;">Language is ultimately a communication tool. Polyglot takes a
+                       functional approach by focusing on what learners actually want to do with a
+                        language.
+                        We’re not done building polyglot. We’re constantly exploring ways
+                    to improve our products and better work together. As we grow, we’re looking for
+                      people who like to roll up their sleeves, figure things out, and actively make
+                    POLYGLOT better. This isn’t a place for bureaucrats — problem-solvers thrive here.
+                    We believe that strong citizenship comes from humility and leading by example.
+                   <h4 style="text-align:left;margin-right:44em;margin-top:-2px;font-size:18px;margin-bottom:-1em;"> We hope you enjoy using Polyglot as much as we enjoy building it!</h4>
+							                      <br > <li class="social-items" >
+						   
+						   <a href="#"><img src="https://www.sorrentostoneware.ca/wp-content/uploads/2020/10/ig-icon.jpg" height="50px" width="50px"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="social-items">
+						   
+						   <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" height="50px" width="50px"><i class="fab fa-twitter-square"></i></a></li>
+                            <li class="social-items">
+						   
+						   <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" height="50px" width="50px"><i class="fab fa-instagram-square"></i></a></li></br>
+							<b> <li class="quick-items" ><a href="#">Contact Us</a></li></b>
+                        
+						</ol>
+                    </div>
+	
+	
+	
+
+	
+
+      <p style="font-size=40em;margin-top:-2em;">&copy; Copyright 2022</p>
+    </div>
+  </div>
+</body>
+</html>
